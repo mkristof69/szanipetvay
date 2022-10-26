@@ -1,0 +1,10 @@
+#jobbra{
+    float: right;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-style: italic;
+    font-size: 0.7em;
+    color: #FF0000;
+    background-color: white;
+  }
