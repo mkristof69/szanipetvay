@@ -1,6 +1,9 @@
-body{
-    background-image: url(telo.jpg);
+body {
+    background-color:cyan;
 }
+
+
+
 <style type="text/css">
 #menu{
 list-style: none;
