@@ -2,9 +2,15 @@ body {
     background-color:cyan;
 }
 
+#note11{
+    width: 400px;
+    height: 500px;
+    float: right;
+    padding: 50%;
+}
 
 
-<style type="text/css">
+
 #menu{
 list-style: none;
 }
@@ -66,8 +72,7 @@ white-space: nowrap;
 float: none;
 text-transform: none;
 }
-#submenu li a:hover{ /* lenyíló menü színe, ha ráviszed az egeret */
+#submenu li a:hover{ 
 color: white !important;
 background: #b1c778;
 }
-</style>
