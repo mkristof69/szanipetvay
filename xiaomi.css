@@ -9,7 +9,12 @@ body {
     padding: 50%;
 }
 
-
+#note11video{
+    width: 500px;
+    height: 300px;
+    position: absolute;    
+    float: right;
+}
 
 #menu{
 list-style: none;
