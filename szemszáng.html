@@ -5,17 +5,75 @@
     <link rel="stylesheet" href="szemszáng.css">
     <title>Samsung Shop</title>
     <link rel="icon" href="teloikon.png">
+    <script src="Untitled-1.js"></script>
 </head>
 <body>
+  <nav>
+    <menu>
+      <menuitem>
+        <a href="projekt.html">FŐOLDAL</a>
+      </menuitem>
+      <menuitem id="demo1">
+        <a>TELEFONOK</a>
+        <menu>
+          <menuitem><a href="szemszáng.html">SAMSUNG</a></menuitem>
+          <menuitem><a href="xiaomi.html">XIAOMI</a></menuitem>
+          <menuitem><a href="iphone.html">IPHONE</a></menuitem>
+          <menuitem><a href="index.html">HUAWEI</a></menuitem>
+        </menu>
+      </menuitem>
+    </menu>
+  </nav>
   
-        
-          
-  <h3 id="bal">Samsung Galaxy S22 Ultra</h3>
-  <img src="galaxys22.jpg" alt="" id="s22">     
-  <h3 id="s21szöveg">Samsung Galaxy S21 Ultra</h3>
-  <img src="s21ultra.jpg" id="s21">
-  <h3 id="s20szöveg">Samsung Galaxy S20 Ultra</h3>
-  <img src="s20ultra.png" alt="" id="s20">
-
+  <div id="balradiv">
+    <img src="galaxys22.jpg" alt="" id="s22kep">
+    <p>Samsung Galaxy S22 Ultra</p>
+    <p>Ár: <strong>554 999 Ft</strong></p>
+    <p>Specifikációk:</p>
+    <ul>
+      <li>processzor típusa : SoC/CPU: Samsung Exynos 2200</li>
+      <li>GPU: Xclipse 920</li>
+      <li>Processzormagok száma: 8 magos</li>
+      <li>Processzor sebessége : 2.8 GHz</li>
+      <li>RAM : 12 GB</li>
+      <li>Belső Memória Mérete : 256 GB</li>
+    </ul>
+    <p>beutató videó</p>
+      <video src="s22.mp4" controls id="s22vid"></video>
+  </div>
+  <div id="kozepdiv">
+    <img src="s21ultra.jpg" alt="" id="s21">
+    <p>Samsung Galaxy S21 Ultra</p>
+    <p>Ár: <strong>380 000 Ft</strong></p>
+    <p>Specifikációk:</p>
+    <ul>
+      <li>Processzor típusa : SoC/CPU: Samsung Exynos 2100 </li>
+      <li>GPU: Mali-G78 MP14</li>
+      <li>Processzormagok száma: 8 magos</li>
+      <li>processzor sebessége: 2.9 GHz</li>
+      <li>RAM: 12 GB</li>
+      <li>Belső Memóra Mérete: 128 GB</li>
+    </ul>
+    <p>bemutató videó</p>
+      <video src="s21.mp4" controls id="s21vid"></video>
+    
+  </div>
+  <div id="jobbdiv">
+    <img src="s20.jpg" alt="" id="s20">
+    <p>Samsung Galaxy S20 Ultra</p>
+    <p>Ár: <strong>340 000 Ft</strong></p>
+    <p>Specifikációk:</p>
+    <ul>
+      <li>Processzor típusa : SoC/CPU: Samsung Exynos 990 </li>
+      <li>GPU: Mali-G77 11</li>
+      <li>Processzormagok száma: 8 magos</li>
+      <li>processzor sebessége: 2.73 GHz</li>
+      <li>RAM: 12 GB</li>
+      <li>Belső Memóra Mérete: 128 GB</li>
+    </ul>
+    <p>
+      bemutató videó: <video src="s20.mp4" controls id="s20vid"></video>
+    </p>
+  </div>
 </body>
 </html>
