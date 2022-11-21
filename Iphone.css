@@ -1,90 +1,64 @@
-body{
-  background-color: #720000;
-  background-size: 70px 70px;
-  background-repeat: repeat-y;
-  background-position: right top;
-  padding: 15px 95px 15px 15px;
-  color: wheat;
-  text-align: justify;
+html, body{
+  padding:0px;
+  margin:0px;
+  background:#191A1D;
+  font-family: 'Karla', sans-serif;
+  width:100vw;
+}
+body * {
+  margin:0;
+  padding:0;
 }
 
-
-#jobbra{
-    float: right;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-    font-style: italic;
-    font-size: 0.7em;
-    color: #FF0000;
-    background-color: white;
-  }
-
-h1 {
-  color: wheat;
-  font-family: Comic Sans Ms;
-  text-align: center;
+/* HTML Nav Styles */
+/* HTML Nav Styles */
+/* HTML Nav Styles */
+nav menuitem {
+  position:relative;
+  display:block;
+  opacity:0;
+  cursor:pointer;
 }
 
-#menu li{
-float: left;
-padding: 2px;
-position: relative;
+nav menuitem > menu {
+  position: absolute;
+  pointer-events:none;
 }
-#menu a{
-float: left;
-padding: 10px 0;
-width: 130px;
+nav > menu { display:flex; }
+
+nav > menu > menuitem { pointer-events: all; opacity:1; }
+menu menuitem a { white-space:nowrap; display:block; }
+  
+menuitem:hover > menu {
+  pointer-events:initial;
 }
-#menu li a{
-font-family: Century Gothic !important;
-font-size: 11px !important;
-font-weight: normal !important;
-color: #B5B5B5;
-text-align: center;
-background: #393939;
-letter-spacing: 1px !important;
-text-transform: uppercase;
-text-decoration: none;
+menuitem:hover > menu > menuitem,
+menu:hover > menuitem{
+  opacity:1;
 }
-#menu li:hover > a{color: white;}
-*html #menu li a:hover{ /* IE6 */
-color: #BFD68B;
+nav > menu > menuitem menuitem menu {
+  transform:translateX(100%);
+  top:0; right:0;
 }
-#menu li:hover > ul{
-display: block;
+/* User Styles Below Not Required */
+/* User Styles Below Not Required */
+/* User Styles Below Not Required */
+
+nav { 
+  margin-top: 40px;
+  margin-left: 40px;
 }
-#submenu{
-list-style: none;
-padding: 0;
-display: none;
-position: absolute;
-top: 41px;
-left: 2px;
-z-index: 99999;
-background: #BFD68B;
-width: 130px;
+
+nav a {
+  background:#75F;
+  color:#FFF;
+  min-width:190px;
+  transition: background 0.5s, color 0.5s, transform 0.5s;
+  margin:0px 6px 6px 0px;
+  padding:20px 40px;
+  box-sizing:border-box;
+  border-radius:3px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  position:relative;
 }
-#submenu li{
-float: none;
-margin: 0;
-padding: 0;
-display: block;
-}
-#submenu li a{
-font-family: Century Gothic !important;
-font-size: 13px !important;
-font-weight: normal !important;
-color: #079032 !important;
-background: #BFD68B;
-padding: 10px 0;
-line-height: 1;
-display: block;
-white-space: nowrap;
-float: none;
-text-transform: none;
-}
-#submenu li a:hover{ /* lenyíló menü színe, ha ráviszed az egeret */
-color: white !important;
-background: #b1c778;
-}
+
