@@ -51,7 +51,7 @@ html, body{
  }
  
  nav a {
-    background:red;
+    background:indigo;
     color:#FFF;
     min-width:190px;
     transition: background 0.5s, color 0.5s, transform 0.5s;

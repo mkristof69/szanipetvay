@@ -1,7 +1,7 @@
 html, body{
     padding:0px;
     margin:0px;
-    background:#191A1D;
+    background-image:url(telo.jpg);
     font-family: 'Karla', sans-serif;
     width:100vw;
  }
@@ -50,7 +50,7 @@ html, body{
  }
  
  nav a {
-    background:red;
+    background:indigo;
     color:#FFF;
     min-width:190px;
     transition: background 0.5s, color 0.5s, transform 0.5s;
@@ -111,21 +111,6 @@ html, body{
     opacity: 1;
  }
  
-
-
-#note11{
-    width: 400px;
-    height: 500px;
-    margin: right;
-    padding: 50%;
-}
-
-#note11video{
-    width: 500px;
-    height: 300px;
-    position: absolute;    
-    float: right;
-}
 
 #menu{
 list-style: none;
@@ -191,4 +176,71 @@ text-transform: none;
 #submenu li a:hover{ 
 color: white !important;
 background: #b1c778;
+}
+
+#note11{
+   width: 500px;
+   height: 300px;
+   position: absolute;
+   left: 600px;
+}
+
+#note11video{
+   width: 500px;
+   height: 300px;
+   position: absolute;    
+   top: 750px;
+   left: 600px;
+}
+
+#d1{
+   width: 400px;
+}
+
+#redminote12pro{
+   width: 500px;
+   height: 300px;
+   position: absolute;    
+   top: 750px;
+   left: 0px;
+}
+
+#note13pro{
+   width: 500px;
+   height: 300px;
+   position: absolute;    
+   left: 1250px;
+   top: 100px;
+}
+
+#redminote13pro{
+   width: 500px;
+   height: 300px;
+   position: absolute;    
+   top: 750px;
+   left: 1250px;
+}
+
+#elsop{
+   position: absolute;
+   left: 0px;
+   top: 360px;
+   font-size: 20px;
+   color: indigo;
+}
+
+#masodikp{
+   position: absolute;
+   left: 610px;
+   top: 410px;
+   font-size: 20px;
+   color: indigo;
+}
+
+#harmadikp{
+   position: absolute;
+   left: 1250px;
+   top: 410px;
+   font-size: 20px;
+   color: indigo;
 }
