@@ -1,4 +1,6 @@
-
+body{
+    color: white;
+}
 
 html, body{
     padding:0px;
@@ -113,3 +115,51 @@ html, body{
     transform:translateX(0) translateY(0%);
     opacity: 1;
  }
+
+ #novay70{
+    top: 150px;
+    left: 50px;
+}
+
+#novay70video{
+    width: 400px;
+    height: 300px;
+}
+
+#novay70kep{
+    width:300px ;
+    height: 400px;
+}
+
+#p50div{
+    position: absolute;
+    top: 145px;
+    left: 550px;
+}
+
+#p50kep{
+    width:350px ;
+    height: 400px;
+}
+
+#p50video{
+    width: 400px;
+    height: 300px;
+}
+
+#nova8idiv{
+    position:absolute;
+    top:90px;
+    left:1100px;
+}
+
+#nova8ikep{
+    width: 400px;
+    height: 400px;
+}
+
+#nova8ivideo{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+}
