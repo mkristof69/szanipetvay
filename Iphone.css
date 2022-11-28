@@ -9,13 +9,26 @@ h1 {
 }
 #kozepdiv{
   position: absolute;
-  top: 145px;
-  left: 550px;
+  top: 175px;
+  left: 650px;
 }
 
-#iphone10{
+#jobbdiv{
+  position: absolute;
   top: 140px;
-  left: 900px;
+  left: 1250px;
+}
+#i14vid{
+  width: 400px;
+  height: 300px;
+}
+#i13vid{
+  width: 400px;
+  height: 300px;
+}
+#i10vid{
+  width: 400px;
+  height: 300px;
 }
 
 html, body{
